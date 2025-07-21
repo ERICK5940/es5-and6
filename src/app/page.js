@@ -49,12 +49,15 @@ const styles = {
     borderRadius: "10px",
     justifycontent:"center",
     Alignitems: "center",
+    animation:"gradientshift 6s ease infinite"
   },
   form: {
     display: "flex",
     alignitems:"center",
     flexDirection: "column",
     padding:"20px",
+    borderRadius:"12px",
+    animation:"floaty 3s ease-in-out infinite",
     gap: "13px",
   },
   input: {
@@ -72,6 +75,7 @@ const styles = {
     transition:"0.3",
     borderRadius: "5px",
     fontWeight: "bold",
-    textAlign:"center",
+    animation:"floaty 2s ease-in-out infinite, ",
   },
 };
+
