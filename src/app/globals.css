@@ -50,4 +50,45 @@ a {
     transform: translatex(0px);
   }
 }
+@keyframes flipy {
+  0% {
+    transform: rotatey(0deg);
+  }
+  25%{
+    transform: rotatey(30deg);
+  }
+  50% {
+    transform: rotatey(0deg);
+  }
+  75% {
+    transform: rotatey(-30deg);
+  }
+  100% {
+    transform: rotatey(0deg);
+  }
+
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;}
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
