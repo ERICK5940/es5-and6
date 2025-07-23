@@ -40,24 +40,22 @@ export default function LoginPage() {
 }
 
 const styles = {
-  container: {
-    maxWidth: "400px",
-    margin: "100px auto",
-    padding: "20px",
-    background: "linear-gradient(270deg ,yellow,orange,red)",
-    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-    borderRadius: "10px",
-    justifycontent:"center",
-    Alignitems: "center",
-    animation:"gradientshift 6s ease infinite"
-  },
+ container: {
+  maxWidth: "400px",
+  margin: "100px auto",
+  padding: "20px",
+  background: "linear-gradient(45deg, #00c6ff, #43e967, #38f9d7)",
+  backgroundSize: "600% 600%",
+  animation: "gradient 10s ease infinite,fadeInOut 5s ease-in-out infinite",
+  borderRadius: "20px",
+},
+
   form: {
     display: "flex",
     alignitems:"center",
     flexDirection: "column",
     padding:"20px",
     borderRadius:"12px",
-    animation:"floaty 3s ease-in-out infinite",
     gap: "13px",
   },
   input: {
@@ -68,14 +66,14 @@ const styles = {
   button: {
     maxWidth:"350gpx",
     padding: "10px 20px",
-    background: "linear-gradient(to right ,blue,red,purple)",
+    background: "linear-gradient(to right,navy,blue)",
     color: "white",
     border: "none",
     cursor:"pointer",
     transition:"0.3",
     borderRadius: "5px",
     fontWeight: "bold",
-    animation:"floaty 2s ease-in-out infinite, ",
+    animation:"flipy 3s ease-in-out infinite ",
   },
-};
 
+};
